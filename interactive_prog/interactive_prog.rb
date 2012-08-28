@@ -6,7 +6,7 @@ def interact string1,string2
 	if (string1 == "")
 		eval string2
 	else 
-		if string1 == 'q'
+		if string1 == 'q' || string1 == 'Q'
 			return
 		end
 		
