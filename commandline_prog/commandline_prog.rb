@@ -4,7 +4,6 @@ if __FILE__ == $0
 end
 class Dynamic_func
 	def initialize var
-		
 		self.class.calling(var)
 	end
 	def self.calling var1
