@@ -1,14 +1,13 @@
-lion = "lion"
-sheep = "sheep"
-class << lion
-  def speak 
-    puts "#{self} roars"
-  end
+str = String.new("harsh")
+class << str
+	def name 
+		puts "#{self}"
+	end
 end
-def lion.feet 
-  puts "#{self} = 4 feet"
+def str.name1
+	puts "#{self}"
 end
-lion.speak
-lion.feet
-sheep.speak
-sheep.feet
+str.name
+str.name1
+"akshay".name
+"akshay".name1
