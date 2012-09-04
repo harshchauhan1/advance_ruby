@@ -1,0 +1,6 @@
+name,age,city
+akshay,22,delhi
+harsh,23,delhi
+kd,21,kanpur
+tutu,24,mumbai
+kapoor,26,dehradun
