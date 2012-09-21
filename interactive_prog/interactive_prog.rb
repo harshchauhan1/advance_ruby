@@ -1,15 +1,15 @@
-if __FILE__ == $0
-  @str = "puts 'hello'"
-  @str1 = ""
-end
-def interact string1,string2
-	if (string1 == "")
-		eval string2
-	else 
-		if string1 == 'q' || string1 == 'Q'
-			return
+@string1
+@@string2
+	loop do
+		puts "enter your line"
+		@@string2 = gets.chomp
+		if @@string2 == 'q' || @@string2 == 'Q'
+				break
+		else
+			@@string1 = gets.chomp
+			if (@@string1 == "")
+				puts eval @@string2
+				@@string2 = ""
+			end
 		end
-		
 	end
-end
-interact(@str1,@str)
